@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rikku Rawat | Web Developer & Programmer</title>
+    <meta name="description"
+        content="Portfolio of Rikku Rawat, a Web Developer & Programmer specialized in HTML, CSS, JavaScript, C, C++, and SQL.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="#hero" class="logo">Rikku<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <canvas id="particles-canvas"></canvas> <!-- Particle Background -->
+
+        <div class="container hero-container">
+            <div class="hero-text">
+                <h4 class="greeting">Hello, I'm</h4>
+                <h1 class="name glitched" data-text="Rikku Rawat">Rikku Rawat</h1>
+                <h2 class="title">Web Developer & Programmer</h2>
+                <p class="description">
+                    Building the future with modern web technologies.
+                    Passionate about creating seamless digital experiences with clean code and innovative design.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hire Me</a>
+                    <a href="#projects" class="btn btn-secondary">View Work</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="profile-container-3d">
+                    <div class="profile-glow"></div>
+                    <img src="my pic.png" alt="Rikku Rawat" class="profile-img">
+
+                    <!-- Floating Tech Logos (Holographic) -->
+                    <div class="floating-tech html-tech">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="floating-tech css-tech">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="floating-tech js-tech">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="floating-tech react-tech">
+                        <i class="fab fa-react"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I am a dedicated Web Developer and Programmer with a strong passion for solving problems through
+                        code.
+                        With a deep understanding of modern web technologies, I strive to build applications that are
+                        not only functional but also visually appealing and easy to use.
+                        I am constantly learning and evolving to keep up with the latest trends in the tech industry.
+                    </p>
+                    <div class="about-skills">
+                        <h3>My Tech Stack</h3>
+                        <div class="skill-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">C</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img">Project 1</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A fully responsive e-commerce website with product listing, cart functionality, and checkout
+                            process.</p>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </article>
+
+                <!-- Project Card 2 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img">Project 2</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Management App</h3>
+                        <p>A productivity application to manage daily tasks with features like due dates, priorities,
+                            and categories.</p>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </article>
+
+                <!-- Project Card 3 -->
+                <article class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img">Project 3</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>A personal portfolio website showcasing skills, projects, and experience with a modern dark
+                            theme.</p>
+                        <a href="#" class="project-link"><i class="fab fa-github"></i> View Code</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-wrapper">
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>HTML</p>
+                        <p>95%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="html"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>CSS</p>
+                        <p>90%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="css"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>JavaScript</p>
+                        <p>85%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="js"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>C / C++</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="cpp"></span>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="info">
+                        <p>SQL</p>
+                        <p>75%</p>
+                    </div>
+                    <div class="bar">
+                        <span class="sql"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>Have a project in mind or just want to say hi? Feel free to send me a message.</p>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/_riiikkkuuu_?igsh=N256Z293ZDN3M3kw" class="social-icon"
+                            target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://github.com/rikku94-lab" class="social-icon" target="_blank"><i
+                                class="fab fa-github"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Rikku Rawat. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
