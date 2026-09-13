@@ -1,2 +1,3 @@
-# My-portfolio.
-My personal portfolio website built using HTML, CSS, and JavaScript.
+## 🚀 About This Project
+
+This project is part of my web development learning journey.
